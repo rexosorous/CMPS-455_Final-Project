@@ -1,0 +1,17 @@
+program f2020;
+** This program computes and prints the value
+	Of an expression **
+var
+	** declare variables **
+	a1b , b , w : integer ;
+begin
+	a1b = 3 ;
+	write (a1b ) ; ** display a1b **
+	b = 4 ;
+	w = 5 ;
+		write("value=" , w) ; ** display w **
+
+	** compute the value of the expression **
+	w = a1b * ( b + 2 * w) ;
+	write ( "value=" , w ) ; ** print the value of ba12 **
+end.

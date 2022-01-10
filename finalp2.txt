@@ -1,0 +1,12 @@
+program f2020 ;
+var
+a1b , b , w : integer ;
+begin
+a1b = 3 ;
+write ( a1b ) ;
+b = 4 ;
+w = 5 ;
+write ( "value=" , w ) ;
+w = a1b * ( b + 2 * w ) ;
+write ( "value=" , w ) ;
+end.
